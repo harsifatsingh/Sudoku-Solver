@@ -36,8 +36,8 @@ A blazing-fast, highly-optimized Sudoku solver in pure C, combining advanced con
 1. **Clone the repo**
 
    ```bash
-   git clone https://github.com/yourname/sudoku-solver.git
-   cd sudoku-solver
+   git clone https://github.com/harsifatsingh/Sudoku-Solver.git
+   cd Sudoku-Solver
    ```
 
 2. **Build**
@@ -125,4 +125,4 @@ MIT License © 2025 — feel free to use, modify, and distribute!
 ---
 
 > “Combining the light-speed of bitwise constraint checks with rock-solid backtracking, this solver is both beautiful in code and brutal in performance.”
-> *— Your Name, Lead Developer*
+> *— Harsifat Singh, Lead Developer*
