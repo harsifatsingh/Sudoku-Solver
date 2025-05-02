@@ -3,6 +3,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdbool.h>
 
 extern short int UNSOLVED;
 extern int POSSIBLE;
@@ -44,5 +45,7 @@ int checkPuzzle(Square ***sudoku, Box **boxes);
 void solveSquare(Square *square);
 Box **createBoxes();
 int updateBoxes(Square ***sudoku, int row, int column);
+int backtrackSolve(Sudoku *sudoku);
+int isValidMove(Sudoku *sudoku, int row, int col, int num);
 
 #endif // SUDOKU_H
