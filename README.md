@@ -110,11 +110,13 @@ $ ./sudoku
 
 ## 🧪 Performance Benchmarks
 
-| Puzzle Difficulty | Propagation Steps | Backtracking Calls | Total Time (µs) |
-| ----------------- | ----------------- | ------------------ | --------------- |
-| Easy              | 50                | 0                  | ~200            |
-| Medium            | 200               | ~10                | ~800            |
-| Hard              | 500               | ~250               | ~2,500          |
+| Puzzle Difficulty | Clue Range | Average Solving Time (ms) | Average Backtrack Count | Average Propagation Count |
+| ----------------- | ---------- | ------------------------- | ----------------------- | ------------------------- |
+| Very Easy         | 50-80      | 0.009651                  | 0.16                    | 0.74                      |
+| Easy              | 36-49      | 0.012159                  | 7.66                    | 44.70                     |
+| Medium            | 30-35      | 0.047798                  | 267.29                  | 2298.78                   |
+| Hard              | 25-29      | 0.511199                  | 3920.94                 | 35098.85                  |
+| Very Hard         | 17-24      | 225.426040                | 1260943.22              | 11348245.99               |
 
 ---
 
